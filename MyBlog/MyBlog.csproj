@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SqlSugar.IOC" Version="1.8.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlog.IResposeitory\MyBlog.IResposeitory.csproj" />
+    <ProjectReference Include="..\MyBlog.Reposeitory\MyBlog.Reposeitory.csproj" />
+    <ProjectReference Include="..\MyBlogMod\MyBlogMod.csproj" />
   </ItemGroup>
 
 </Project>
