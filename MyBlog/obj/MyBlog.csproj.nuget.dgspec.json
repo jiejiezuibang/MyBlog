@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog\\MyBlog.csproj": {}
+  },
+  "projects": {
+    "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj",
+        "projectName": "MyBlog.IResposeitory",
+        "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj",
+        "packagesPath": "C:\\Users\\lyq\\.nuget\\packages\\",
+        "outputPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lyq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj": {
+                "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\MyBlog.Reposeitory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\MyBlog.Reposeitory.csproj",
+        "projectName": "MyBlog.Reposeitory",
+        "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\MyBlog.Reposeitory.csproj",
+        "packagesPath": "C:\\Users\\lyq\\.nuget\\packages\\",
+        "outputPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lyq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj": {
+                "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj",
+        "projectName": "MyBlogMod",
+        "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj",
+        "packagesPath": "C:\\Users\\lyq\\.nuget\\packages\\",
+        "outputPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lyq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.9.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog\\MyBlog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog\\MyBlog.csproj",
+        "projectName": "MyBlog",
+        "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog\\MyBlog.csproj",
+        "packagesPath": "C:\\Users\\lyq\\.nuget\\packages\\",
+        "outputPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lyq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj": {
+                "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.IResposeitory\\MyBlog.IResposeitory.csproj"
+              },
+              "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\MyBlog.Reposeitory.csproj": {
+                "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlog.Reposeitory\\MyBlog.Reposeitory.csproj"
+              },
+              "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj": {
+                "projectPath": "G:\\20级水电.NET开发一班覃坤\\实训项目\\个人博客项目(不是上课的项目)\\MyBlog\\MyBlogMod\\MyBlogMod.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
